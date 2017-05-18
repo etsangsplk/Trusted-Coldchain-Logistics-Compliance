@@ -1,4 +1,4 @@
-# Trusted-Healthcare-Logistics
+# Trusted-Coldchain-Logistics-Compliance
 Chaincode for Trusted Coldchain Logistics Compliance (Use Case) which has been developed as part of IBM Inside Track 2017 program.
 
 # Business Problem 
