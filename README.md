@@ -1,6 +1,9 @@
 # Trusted-Coldchain-Logistics-Compliance
 Chaincode for Trusted Coldchain Logistics Compliance (Use Case) which has been developed as part of IBM Inside Track 2017 program.It uses Hyper ledge Fabric 0.6v and Blockchain Service from IBM BlueMix Cloud Platform. 
 
+Update: 05/29
+Added BNA (Business Network Archive) equivalent file for simulation the same blockchain transaction in Hyperledger Composer Playground. 
+
 # Business Problem 
 The problem we have tried to address here cold chain logistics which needs to be kept under controlled temperature, say between -50 Celsius to 50 Celsius. Such medical shipments could be in the form of temperature controlled medicines (drugs, injections etc), human tissues (such as umbilical cord stem cells), clinical trial substance and even research chemicals. When due to technical, logistical or environments reasons, temperature cannot be controlled/maintained, the cold chain gets broken and the medical shipment gets damaged i.e. it is unusable. Today shippers usually insure their packages for covering the losses caused during the shipping process. There could be separate trained medical practitioners at the point of origin and at the destination to manually verify the shipments whether they are spoiled or intact. If found spoilt the consignee would manually fill out an insurance claim form, logistics provider acknowledgement and submit it to the Insurance company which takes a significant time to verify all the details mentioned are correct before releasing the compensation to the claimer. This is a time consuming and very in-efficient process for everyone included in the transaction. On the other hand, because the consignee has now received a damaged shipment, the consignee now needs to arrange for alternatives which could cause further delays to patient care or clinical trials.
 
@@ -17,3 +20,6 @@ Our Proposal is a trusted system that introduces an IOT enabled digital temperat
 4. deliverpkg() --> Update status of package to ‘Pkg_Delivered’ at the time of delivery of package to assignee. 
 5. queryallpkg() --> Query all package present in blochchain (irrespective of Package Staus)
 6. querybyroleandstatus() --> Query blockchain by party role, role-value and package status. 
+
+# Migration to Hyper Ledger Framework 1.0
+Business Network Archive file equivalent to Hyper Ledger Fabric Composer 1.0. This file can be uploaded directly to <B>Hyperledger Composer Playground <B> https://composer-playground.mybluemix.net/editor and blockchain transaction can be simulated.
